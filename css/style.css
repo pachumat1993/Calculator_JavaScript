@@ -62,3 +62,44 @@
         
       }
     
+
+      #calculator input:focus {
+        outline: none;
+      }
+
+
+      #calculator button {
+        font: "Raleway";
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+        background: #023d6d;
+        color: white;
+        border: 1px solid #023d6d;
+        padding: 0.5rem;
+        cursor: pointer;
+      
+        
+      }
+
+      #calculator button:focus {
+        outline: none;
+      }
+  
+      
+      #calculator button:hover,
+      #calculator button:active {
+        background: #084f88;
+        border-color: #084f88;
+      }
+
+      #calc-actions button {
+        width: 4rem;
+      }
+    
+  #calc-actions {
+    margin-top: 1rem;
+    text-align: center;
+  }
+    
+    
