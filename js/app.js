@@ -78,3 +78,22 @@ function multiplication (){
 // 8 podpięcie zdarzenia Klik pod button multiplication 
 
 buttonMultiplication.addEventListener("click", multiplication)
+
+// 9 Napisanie funkcji na dzielenie 
+
+function division (){
+    let inputNumber = document.getElementById("input-number")
+    let inputNumberTwo = document.getElementById("input-number2")
+
+    resultDivision = parseInt(inputNumber.value) / parseInt(inputNumberTwo.value)
+    document.getElementById("current-result").innerHTML = resultDivision
+
+    if(isNaN(resultDivision)){
+        document.getElementById("current-result").innerHTML = "Enter a Value"
+    }
+
+}
+
+// 10 podpięcie zdarzenia Klik pod button division
+
+buttonDivison.addEventListener("click",division)
