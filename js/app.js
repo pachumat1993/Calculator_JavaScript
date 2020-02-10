@@ -97,3 +97,19 @@ function division (){
 // 10 podpięcie zdarzenia Klik pod button division
 
 buttonDivison.addEventListener("click",division)
+
+
+// 11 Napisanie funkcji która kasuje wartość 
+
+function clear () {
+    let clear1= document.getElementById("input-number").value = " "
+    let clear2 =  document.getElementById("input-number2").value = " "
+    resultClear = clear1+clear2
+    document.getElementById("current-result").innerHTML = resultClear + "Enter a Value"
+
+
+}
+
+
+// 12 podpięcie zdarzenie Klik pod buttonClear z funkcją clear
+buttonClear.addEventListener("click", clear)
