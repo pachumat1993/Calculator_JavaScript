@@ -115,4 +115,4 @@ function clear () {
 buttonClear.addEventListener("click", clear)
 
 
-// 13 zakonczono pisanie skryptu JavaScript, obsługujący kalkulator
+// 13 zakonczono pisanie skryptu JavaScript, obsługującego kalkulator
