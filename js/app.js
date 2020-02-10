@@ -55,3 +55,26 @@ function substraction (){
 // 6 podpięcie zdarzenia Klik pod button substraction 
 
 buttonSubstraction.addEventListener("click",substraction)
+
+
+
+// 7 Napisanie funkcji na mnożenie 
+
+function multiplication (){
+    let inputNumber = document.getElementById("input-number")
+    let inputNumberTwo = document.getElementById("input-number2")
+
+    resultMultiplication = parseInt(inputNumber.value) * parseInt(inputNumberTwo.value)
+    document.getElementById("current-result").innerHTML =  resultMultiplication
+
+    if(isNaN(resultMultiplication)){
+        document.getElementById("current-result").innerHTML = "Enter a Value"
+    }
+
+    
+}
+
+
+// 8 podpięcie zdarzenia Klik pod button multiplication 
+
+buttonMultiplication.addEventListener("click", multiplication)
