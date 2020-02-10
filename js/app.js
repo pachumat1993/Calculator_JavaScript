@@ -30,3 +30,28 @@ function addition (){
 
 
 }
+
+// 4 podpięcie zdarzenia Klik pod button addition 
+buttonAddition.addEventListener("click",addition)
+
+
+
+// 5 Napisanie funkcji na odejmowanie 
+
+function substraction (){
+    let inputNumber = document.getElementById("input-number")
+    let inputNumberTwo = document.getElementById("input-number2")
+
+    resultSubstraction = parseInt(inputNumber.value) - parseInt(inputNumberTwo.value)
+    document.getElementById("current-result").innerHTML = resultSubstraction
+
+    if(isNaN( resultSubstraction)){
+        document.getElementById("current-result").innerHTML = "Enter a Value"
+    }
+
+  
+}
+
+// 6 podpięcie zdarzenia Klik pod button substraction 
+
+buttonSubstraction.addEventListener("click",substraction)
