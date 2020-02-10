@@ -11,3 +11,22 @@ const buttonDivison = document.getElementById("btn-divide")
 const buttonSquareRoot= document.getElementById("btn-squareRoot")
 const curentResult = document.getElementById("current-result")
 const buttonClear = document.getElementById("btn-clear")
+
+
+// 3 Napisanie funkcji na dodawanie, wraz z funkcją NaN
+
+function addition (){
+    let inputNumber = document.getElementById("input-number")
+    let inputNumberTwo = document.getElementById("input-number2")
+
+
+    resultAddition = parseInt(inputNumber.value) + parseInt(inputNumberTwo.value)
+    document.getElementById("current-result").innerHTML = resultAddition 
+
+    if(isNaN(resultAddition)){
+        document.getElementById("current-result").innerHTML = "Enter a Value"
+    }
+
+
+
+}
