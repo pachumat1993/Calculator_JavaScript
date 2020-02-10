@@ -113,3 +113,6 @@ function clear () {
 
 // 12 podpięcie zdarzenie Klik pod buttonClear z funkcją clear
 buttonClear.addEventListener("click", clear)
+
+
+// 13 zakonczono pisanie skryptu JavaScript, obsługujący kalkulator
